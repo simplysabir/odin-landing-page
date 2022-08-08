@@ -44,3 +44,46 @@ h1,h2,h3{
     /* it will center the container */
     padding: 0 3.2rem;
 }
+
+
+                    /* NAVBAR STYLING STARTS  */
+
+
+.header{
+    height: 7.6rem;
+    font-size: 1.5rem;
+    background: var(--background);
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--primary-text);
+}
+.navlink{
+    color: var(--secondary-text);
+    transition: 0.3s all linear;
+}
+.navlist{
+    display: flex;
+    gap: 2rem;
+    font-weight: 500;
+}
+
+.navlink:hover{
+    color: var(--button-color);
+
+}
+.logo::selection{
+    color: var(--button-color);
+    background: var(--primary-text);
+}
+.navbar .navlink::selection{
+    color: var(--button-color);
+    background: var(--primary-text);
+}
+
+
+                    /* HOME STYLING STARTS */
