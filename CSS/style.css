@@ -201,3 +201,47 @@ h1,h2,h3{
 }
 
                   /* BLUE BG TEXT STARTS HERE */
+.contain-blue{
+    background: var(--button-color);
+    padding: 4rem;
+    border-radius: 2rem;
+    display: flex;
+    gap: 12rem;
+    align-items: center;
+}
+.blue-bg .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue-head{
+    color: var(--primary-text);
+    font-size: 2.5rem;
+    margin-bottom: 0.3rem;
+}
+.para4{
+    color: var(--primary-text);
+    font-size: 1.6rem;
+}
+.button-blue{
+    border: 1px var(--primary-text) solid;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-weight: bold;
+    color: var(--primary-text);
+    
+}
+/* .button-blue a{
+    text-decoration: ;
+} */
+
+.footer{
+    height: 6.5rem;
+    background: var(--background);
+}
+
+.head4{
+    text-align: center;
+padding-top: 3rem;
+}
