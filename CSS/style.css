@@ -147,3 +147,57 @@ h1,h2,h3{
     color: var(--button-color);
     background: var(--primary-text);
 }
+
+            /* SOME RANDOM INFORMATION PART STARTS */
+.sm-ran{
+    font-size: 3.5rem;
+    color: var(--background);
+    text-align: center;
+}
+.about{
+    background: var(--primary-text);
+}
+.box{
+    color: var(--secondary-text);
+    border: 2px var(--button-color) solid ;
+    border-radius: 2rem;
+    width: 15rem;
+    height: 15rem;
+}
+.para1{
+    font-size: 1.8rem;
+    color: var(--background);
+    padding: 1rem 0 2rem 0;
+}
+.box-flex{
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0 0 0;
+}
+.boxes{
+    margin-top: 2rem;
+}
+
+                /* QUOTE SECTION STARTS HERE  */
+
+.quote{
+    background: var(--quote-bg);
+}
+.ab-head{
+    color: var(--background);
+    font-size: 3.6rem;
+    font-style: italic;
+    text-align: center;
+    margin: auto auto;
+   
+    
+}
+.para2{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: end;
+    margin-top: 1rem;
+    
+}
+
+                  /* BLUE BG TEXT STARTS HERE */
